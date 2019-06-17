@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate Zomato API Endpoint",
+        "description": "",
+        "id": "zomato-api-tests;validate-zomato-api-endpoint",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8861777390,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launches zomato app",
+            "match": {
+              "location": "APIPageSteps.user_launches_zomato_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 112956535,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on Zomato endpoint page",
+            "match": {
+              "location": "APIPageSteps.user_is_on_zomato_api_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26306202084,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate get city details endpoint with valid userkey",
+            "match": {
+              "location": "APIPageSteps.validate_getcitydetails_valid_userkey()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5625729974,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate endpont with 2 valid parameters",
+            "match": {
+              "location": "APIPageSteps.validate_api_with_2_parameters()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5319003643,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Validate endpoint with count parameter",
+            "match": {
+              "location": "APIPageSteps.validate_count_param()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25428231333,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Validate get city details endpoint with invalid userkey",
+            "match": {
+              "location": "APIPageSteps.validate_with_invalid_user_key()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 739783445,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Quit the browser",
+            "match": {
+              "location": "APIPageSteps.quit_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Zomato API Tests",
+    "description": "",
+    "id": "zomato-api-tests",
+    "keyword": "Feature",
+    "uri": "C:/Users/navee/workspace/Cucumber_Zomato_API_Tests/src/main/java/com/api/features/APITests.feature"
+  }
+]

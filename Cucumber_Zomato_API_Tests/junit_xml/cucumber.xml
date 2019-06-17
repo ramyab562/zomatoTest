@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="72.393684">
+<testcase classname="Zomato API Tests" name="Validate Zomato API Endpoint" time="72.393684">
+<system-out><![CDATA[Given user launches zomato app..............................................passed
+Then user is on Zomato endpoint page........................................passed
+Then Validate get city details endpoint with valid userkey..................passed
+And Validate endpont with 2 valid parameters................................passed
+And Validate endpoint with count parameter..................................passed
+And Validate get city details endpoint with invalid userkey.................passed
+Then Quit the browser.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
